@@ -1,0 +1,41 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.header {
+  background-color: tomato;
+}
+
+.hero {
+  background-color: teal;
+}
+
+.futuries {
+  background: orange;
+}
+
+.solutions {
+  background-color: olivedrab;
+}
+
+.cases {
+  background-color: #909090;
+  padding: 40px;
+}
+
+.blog {
+  background-color: purple;
+}
+
+.team-text {
+  background-color: yellow;
+}
+
+.team {
+  background-color: red;
+}
+
+.callback {
+  background-color: blue;
+}
+
+.futuries {
+  background: grey;
+}/*# sourceMappingURL=index.css.map */
