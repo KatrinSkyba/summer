@@ -1,3 +1,38 @@
 .callback {
-  background-color: blue;
+  display: flex;
+  background-color: #f4f4f4;
+}
+
+.connect {
+  &__title {
+    margin-bottom: 34px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    color: #333333;
+  }
+}
+
+.connect__form {
+}
+.connect__login {
+  display: block;
+  margin-bottom: 36px;
+  max-width: auto;
+}
+.connect__email {
+  display: block;
+  margin-bottom: 60px;
+  min-width: auto;
+}
+.connect__btn {
+  background: #28a745;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
 }
