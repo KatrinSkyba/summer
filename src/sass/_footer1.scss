@@ -1,3 +1,41 @@
+.footer-first__soc-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 .footer-first {
-  background: rgb(153, 169, 95);
+  background: #333333;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+.footer-first__soc-links {
+  list-style: none;
+}
+
+.soc-links__link {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.soc-links__item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-first__text {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+}
+
+img {
+  display: block;
 }
