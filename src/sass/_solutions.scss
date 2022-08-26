@@ -7,7 +7,6 @@ $FontWeight: 400;
   height: 460px;
 }
 .solutions__block {
-  display: block;
   padding-top: 84px;
   padding-right: 44px;
   padding-bottom: 84px;
@@ -35,14 +34,15 @@ $FontWeight: 400;
   color: $TextColor;
 }
 .solutions__button {
-  display: inline-block;
-  padding: 11px 27px;
+  display: inline-box;
+  padding: 11px 5px;
   width: 167px;
-  height: 50px;
+  max-height: 50px;
   font-weight: $FontWeight;
   font-size: 18px;
   line-height: 15.6;
   color: $TextColor;
+  background-color: #28a745;
   border: 1px solid #ffffff;
   border-radius: 5px;
 }

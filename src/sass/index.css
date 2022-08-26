@@ -92,9 +92,11 @@ a {
 .solutions {
   display: flex;
   background-color: #28a745;
+  height: 460px;
 }
 
 .solutions__block {
+  display: block;
   padding-top: 84px;
   padding-right: 44px;
   padding-bottom: 84px;
@@ -126,14 +128,15 @@ a {
 }
 
 .solutions__button {
-  display: inline-block;
-  padding: 11px 27px;
+  display: inline-box;
+  padding: 11px 5px;
   width: 167px;
-  height: 50px;
+  max-height: 27px;
   font-weight: 400;
   font-size: 18px;
   line-height: 15.6;
   color: #ffffff;
+  background-color: #28a745;
   border: 1px solid #ffffff;
   border-radius: 5px;
 }
