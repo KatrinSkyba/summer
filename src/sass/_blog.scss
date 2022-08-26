@@ -1,3 +1,41 @@
-.blog {
-  background-color: purple;
+.blog-section {
+  display: block;
+  background-color: #0284d0;
+  width: auto;
+  height: 517px;
+}
+.date-blog {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.blog-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+.blog-text {
+  ont-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+.blog-btn {
+  width: 196px;
+  height: 50px;
+  background-color: #0284d0;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
