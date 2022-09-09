@@ -1,3 +1,48 @@
+$TextColor: #ffffff;
+$FontWeight: 400;
+
 .solutions {
-    background-color: olivedrab;
+  display: flex;
+  background-color: #28a745;
+  height: 460px;
+}
+.solutions__block {
+  padding-top: 84px;
+  padding-right: 44px;
+  padding-bottom: 84px;
+  padding-left: 30px;
+}
+.solutions__text {
+  margin-bottom: 5px;
+  font-weight: $FontWeight;
+  font-size: 20px;
+  line-height: 1.65;
+  color: $TextColor;
+}
+.solutions__title {
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: $TextColor;
+}
+.solutions__description {
+  margin-bottom: 17px;
+  font-weight: $FontWeight;
+  font-size: 18px;
+  line-height: 1.56;
+  color: $TextColor;
+}
+.solutions__button {
+  display: inline-box;
+  padding: 11px 5px;
+  width: 167px;
+  max-height: 50px;
+  font-weight: $FontWeight;
+  font-size: 18px;
+  line-height: 15.6;
+  color: $TextColor;
+  background-color: #28a745;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
